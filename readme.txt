@@ -1,2 +1,1 @@
-Primeiro Paragrafo
-Segundo Paragrafo
+Esta branch é a Master
