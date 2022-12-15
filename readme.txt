@@ -1,6 +1,1 @@
-Primeiro Paragrafo
-Segundo Paragrafo
-
-Eu estou no branch Teste
-
-fiz uma nova alteraçao
+Esta é a branch Java
