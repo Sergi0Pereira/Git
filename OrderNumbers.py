@@ -1,16 +1,13 @@
-# This program orders the numbers that a user inputs
+numbers = []
 
-# Take input from the user
-nums = input("Enter a list of numbers, separated by spaces: ")
+while True:
+    num = input("Please enter an integer number (or press enter to finish): ")
+    if num == '':
+        break
+    numbers.append(int(num))
 
-# Split the input string into a list of numbers
-nums = nums.split()
+numbers.sort()
 
-# Convert the items in the list to floats
-nums = [float(x) for x in nums]
-
-# Sort the list
-nums.sort()
-
-# Print the sorted list
-print(nums)
+print("The ordered numbers are:")
+for n in numbers:
+    print(n)
