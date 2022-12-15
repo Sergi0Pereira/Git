@@ -8,6 +8,6 @@ while True:
 
 numbers.sort()
 
-print("The ordered numbers are:")
+print("The ordered numbers are: ")
 for n in numbers:
     print(n)
