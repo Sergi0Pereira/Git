@@ -1,4 +1,4 @@
-# solution
+# solutions
 
 # take input from user
 num = int(input("Enter the number of names to insert: "))
