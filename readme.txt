@@ -1,3 +1,3 @@
 Esta branch é a Master
 
-E editei-a hoje.
+Este repositororio serve para testar as funcionalidades do git.
