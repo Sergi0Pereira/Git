@@ -1,0 +1,70 @@
+GIT
+
+
+$ git config --global user.name "Sergio"
+$ git config --global user.email "tpessoalsp@gmail.com"
+$ git config --global core.editor "vscode"
+$ git config --list
+
+Para fazer update ao git : git update-git-for-windows
+
+cls = clear
+
+git init - inicializa o repositorio ( a pasta onde 
+iniciamos o repositorio, faz com que todos os ficheiros
+nela contidos sejam incluidos no mesmo ).
+
+touch nomedoficheiro - Cria o ficheiro
+
+git rm nomedoficheiro - Remove o ficheiro do
+sistema e do repositorio
+
+echo " texto que se pretende adicionar" >> nomeDoFicheirodici
+
+
+git add nomeDoArquivo ( um por um )
+git add -A (adiciona todos os arquivos que nao estao rastreados.O A tem de ser Maius
+culo)
+
+git commit -m "COmentario do Commit" ( Commit é o envio das modificaçoes efectuadas
+nos ficheiros.)
+
+git commit -am "Comentario do Commit" ( am adiciona e comita )
+
+git log ( Mostra todos os commits efetuados. q for exit )
+
+
+Note: Short status flags are:
+
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+git command -help -  See all the available options for the specific
+
+git reset -- soft (os dados ficam inalterados nos ficheiros. Apenas elimina o commit)
+		  mixed (os dados ficam inalterados nos ficheiros. Apenas elimina o commit
+			    e o add)
+ 		  hard ( Elimina todas as alteraçoes)
+
+git branch - Mostra todos os branchs existentes ( o que tem o asterisco é
+		 o que está a ser usado. )
+git branch nomeDoBranch - cria um novo Branch
+
+git checkout nomeDoBranch - Muda para o Branch especificado
+
+git branch -m nomeModificadoDaBranch
+
+git diff - exibe as diferenças da versao anterior e a nova
+start nomeDoFicheiro - Inicializa o ficheiro
+
+git diff --name-only - Mostra apenas o nome dos arquivos que foram
+			     modificados.
+
+git checkout HEAD -- nomeDoFicheiro  - Faz um undo para a versao anterior do arquivo
+
+
+
+
+
