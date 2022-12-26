@@ -1,14 +1,22 @@
-[200~#program begins
+# solution
 
-names = input(Please enter a list of names: )
+# take input from user
+num = int(input("Enter the number of names to insert: "))
 
-#split names into a list
-name_list = names.split(, )
+# create an empty list
+name_list = []
 
-#sort names alphabetically
+# iterate num times
+for i in range(num):
+    # take name as input
+    name = input("Enter the name: ")
+    # append to the list
+    name_list.append(name)
+
+# sort list in alphabetical order
 name_list.sort()
 
-#print sorted list
-print(name_list)
-
-#program ends~
+# print the list
+print("The ordered names are:")
+for name in name_list:
+    print(name)
