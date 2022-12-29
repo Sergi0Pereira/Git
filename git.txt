@@ -54,6 +54,8 @@ git branch nomeDoBranch - cria um novo Branch
 
 git checkout nomeDoBranch - Muda para o Branch especificado
 
+git branch -r - indica as branchs remotas disponiveis. -a - indica as remotas e locaisete
+
 git branch -m old-branch-name new-branch-name - Modifica o nome da Branch
 
 git branch -d nomeDaBranch - remove a branch especificada
@@ -76,6 +78,16 @@ git remote add origin urlDoRepositório - Associamos o repo criado no github ao 
 
 git push --set-upstream origin master - Movemos os ficheiros para a branch master do GitHub
 
+git fetch origin - obtém todo o histórico de alterações de um branch/repo rastreado.
+
+git merge origin(doGitHub)/BranchSeleccionada - combina a ramificação atual com uma ramificação especificada.
+
+git pull origin - é uma combinação de fetche merge. Ele é usado para extrair todas as alterações de um repositório remoto
+para a ramificação em que você está trabalhando.
+
+Por exemplo, se você quiser apagar a branch "feature-x" do GitHub, use o seguinte 
+comando:
+git push origin --delete feature-x
 
 
 
