@@ -54,7 +54,9 @@ git branch nomeDoBranch - cria um novo Branch
 
 git checkout nomeDoBranch - Muda para o Branch especificado
 
-git branch -m nomeModificadoDaBranch
+git branch -m old-branch-name new-branch-name - Modifica o nome da Branch
+
+git branch -d nomeDaBranch - remove a branch especificada
 
 git diff - exibe as diferenças da versao anterior e a nova
 start nomeDoFicheiro - Inicializa o ficheiro
@@ -63,6 +65,16 @@ git diff --name-only - Mostra apenas o nome dos arquivos que foram
 			     modificados.
 
 git checkout HEAD -- nomeDoFicheiro  - Faz um undo para a versao anterior do arquivo
+
+git merge nomeDaBranch - Funde ads Branch na qual estou a trabalhar com a branch que especifíco
+
+-------------------------------------------------------------------------------------------------
+
+GitHub
+
+git remote add origin urlDoRepositório - Associamos o repo criado no github ao nosso local
+
+git push --set-upstream origin master - Movemos os ficheiros para a branch master do GitHub
 
 
 
