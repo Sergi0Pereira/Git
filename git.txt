@@ -89,6 +89,7 @@ Por exemplo, se você quiser apagar a branch "feature-x" do GitHub, use o seguin
 comando:
 git push origin --delete feature-x
 
+git clone urlPretendido - clona um dado repositorio
 
 
 

@@ -1,5 +1,5 @@
 Esta branch é a Master cópia.
 
-Nova linha.
+Nova linha...
 
 Este repositororio serve para testar as funcionalidades do git.
